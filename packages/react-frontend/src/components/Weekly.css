@@ -1,0 +1,35 @@
+/* Times */
+.weekly-time-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    justify-content: space-between; /* Evenly distribute the space between items */
+    width: 4%;
+    height: 72%;
+    left: 15%;
+    top: 22%;
+    z-index: 90;
+}
+
+/* Time slot styles */
+.weekly-time-slot {
+    width: auto;
+    font-family: JosefinSans, var(--default-font-family);
+    font-size: calc(
+        0.7vw + 0.7vh
+    ); /* Adjust as needed */ /* Combine rem and vw for scaling */
+    color: #000000;
+    flex: none;
+    flex-grow: 0;
+}
+
+/* divider lines */
+.weekly-day-box {
+    border-width: 0px 1px 0px 0px;
+    border-style: solid;
+}
+
+.weekly-day-box:nth-last-child(1) {
+    border-width: 0px 0px 0px 0px;
+}

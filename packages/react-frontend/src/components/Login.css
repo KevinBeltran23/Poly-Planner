@@ -1,0 +1,174 @@
+/* Main Box */
+.login-main-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45%;
+    height: 60%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #e4e3d3;
+    border: calc(0.4vw + 0.4vh) solid #154734;
+}
+
+/* Poly Planner */
+.login-poly-planner {
+    position: absolute;
+    left: 50%;
+    top: 22%;
+    transform: translate(-50%, -50%);
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(2.2vw + 2.2vh);
+    color: #154734;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* Username Box */
+.login-username-box {
+    box-sizing: border-box;
+    position: relative;
+    width: 70%;
+    height: 10%;
+    background: #ffffff;
+    border: 1px solid #154734;
+    left: 50%;
+    top: 30%;
+    transform: translateX(-50%);
+}
+
+/* Password Box */
+.login-password-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 70%;
+    height: 10%;
+    background: #ffffff;
+    border: 1px solid #154734;
+    left: 50%;
+    top: 55%;
+    transform: translateX(-50%);
+}
+
+/* Login Box */
+.login-login-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 70%;
+    height: 10%;
+    left: 50%;
+    top: 75%;
+    transform: translateX(-50%);
+    background: #154734;
+    border: 1px solid #154734;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex; /* Add flex display */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Login */
+.login-login {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(1.4vw + 1.4vh);
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+/* Change background color when hovered over */
+.login-login-box:hover {
+    background: #0d2b24;
+}
+
+/* Gold Box */
+.login-gold-box {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 5%;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+    background: #bd8b13;
+}
+
+/* Username */
+.login-username {
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(0.9vw + 0.9vh);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #154734;
+}
+
+/* Password */
+.login-password {
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(0.9vw + 0.9vh);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #154734;
+}
+
+/* Error Message */
+.login-error-message {
+    position: absolute;
+    top: 90%; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffc0cb; /* Light pink */
+    z-index: 90;
+    font-size: calc(0.6vw + 0.6vh);
+    width: 31%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Register Button */
+.login-register-button {
+    width: 25%;
+    height: 5.5%;
+    left: 15%;
+    top: 68%;
+    position: absolute;
+    background-color: #bd8b13;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    font-size: calc(0.8vw + 0.8vh);
+    color: #fff;
+    font-family: "Josefin Sans";
+    border: none;
+}
+
+/* Change background color when hovered over */
+.login-register-button:hover {
+    background: #dfa51d;
+}

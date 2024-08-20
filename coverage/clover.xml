@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1717920974689" clover="3.2.0">
+  <project timestamp="1717920974689" name="All files">
+    <metrics statements="78" coveredstatements="74" conditionals="26" coveredconditionals="26" methods="27" coveredmethods="26" elements="131" coveredelements="126" complexity="0" loc="78" ncloc="78" packages="1" files="7" classes="7"/>
+    <file name="calendar.js" path="C:\Users\Kevin\Classwork\csc307\polyPlanner\packages\express-backend\calendar.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="4" count="6" type="stmt"/>
+      <line num="26" count="6" type="stmt"/>
+    </file>
+    <file name="class.js" path="C:\Users\Kevin\Classwork\csc307\polyPlanner\packages\express-backend\class.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="4" count="6" type="stmt"/>
+      <line num="42" count="6" type="stmt"/>
+    </file>
+    <file name="config.js" path="C:\Users\Kevin\Classwork\csc307\polyPlanner\packages\express-backend\config.js">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+    </file>
+    <file name="event.js" path="C:\Users\Kevin\Classwork\csc307\polyPlanner\packages\express-backend\event.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="3" count="6" type="stmt"/>
+      <line num="41" count="6" type="stmt"/>
+    </file>
+    <file name="services.js" path="C:\Users\Kevin\Classwork\csc307\polyPlanner\packages\express-backend\services.js">
+      <metrics statements="68" coveredstatements="64" conditionals="26" coveredconditionals="26" methods="27" coveredmethods="26"/>
+      <line num="3" count="5" type="stmt"/>
+      <line num="12" count="5" type="stmt"/>
+      <line num="15" count="5" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="24" count="0" type="stmt"/>
+      <line num="31" count="5" type="stmt"/>
+      <line num="32" count="5" type="cond" truecount="4" falsecount="0"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="38" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="40" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="43" count="4" type="stmt"/>
+      <line num="47" count="2" type="stmt"/>
+      <line num="51" count="2" type="stmt"/>
+      <line num="52" count="2" type="stmt"/>
+      <line num="56" count="2" type="stmt"/>
+      <line num="61" count="2" type="stmt"/>
+      <line num="65" count="2" type="stmt"/>
+      <line num="71" count="5" type="stmt"/>
+      <line num="72" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="73" count="2" type="stmt"/>
+      <line num="75" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="76" count="2" type="stmt"/>
+      <line num="78" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="79" count="2" type="stmt"/>
+      <line num="81" count="5" type="stmt"/>
+      <line num="85" count="2" type="stmt"/>
+      <line num="86" count="2" type="stmt"/>
+      <line num="90" count="2" type="stmt"/>
+      <line num="95" count="2" type="stmt"/>
+      <line num="99" count="2" type="stmt"/>
+      <line num="105" count="3" type="stmt"/>
+      <line num="106" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="107" count="1" type="stmt"/>
+      <line num="109" count="3" type="stmt"/>
+      <line num="113" count="2" type="stmt"/>
+      <line num="114" count="2" type="stmt"/>
+      <line num="118" count="2" type="stmt"/>
+      <line num="123" count="2" type="stmt"/>
+      <line num="127" count="2" type="stmt"/>
+      <line num="133" count="2" type="stmt"/>
+      <line num="134" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="135" count="1" type="stmt"/>
+      <line num="137" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="138" count="1" type="stmt"/>
+      <line num="140" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="141" count="1" type="stmt"/>
+      <line num="143" count="2" type="stmt"/>
+      <line num="147" count="2" type="stmt"/>
+      <line num="148" count="2" type="stmt"/>
+      <line num="152" count="2" type="stmt"/>
+      <line num="157" count="2" type="stmt"/>
+      <line num="161" count="2" type="stmt"/>
+      <line num="167" count="2" type="stmt"/>
+      <line num="168" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="169" count="1" type="stmt"/>
+      <line num="171" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="172" count="1" type="stmt"/>
+      <line num="174" count="2" type="stmt"/>
+      <line num="178" count="2" type="stmt"/>
+      <line num="179" count="2" type="stmt"/>
+      <line num="183" count="2" type="stmt"/>
+      <line num="188" count="2" type="stmt"/>
+      <line num="192" count="2" type="stmt"/>
+    </file>
+    <file name="todo-item.js" path="C:\Users\Kevin\Classwork\csc307\polyPlanner\packages\express-backend\todo-item.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="4" count="5" type="stmt"/>
+      <line num="29" count="5" type="stmt"/>
+    </file>
+    <file name="user.js" path="C:\Users\Kevin\Classwork\csc307\polyPlanner\packages\express-backend\user.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="4" count="6" type="stmt"/>
+      <line num="51" count="6" type="stmt"/>
+    </file>
+  </project>
+</coverage>

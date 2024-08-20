@@ -1,0 +1,201 @@
+/* Main Box */
+.signup-main-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45%;
+    height: 74%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #e4e3d3;
+    border: calc(0.4vw + 0.4vh) solid #154734;
+}
+
+/* Username Box */
+.signup-username-box {
+    box-sizing: border-box;
+    position: relative;
+    width: 70%;
+    height: 8%;
+    background: #ffffff;
+    border: 1px solid #154734;
+    left: 50%;
+    top: 28%;
+    transform: translateX(-50%);
+}
+
+/* Password Box */
+.signup-password-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 70%;
+    height: 8%;
+    background: #ffffff;
+    border: 1px solid #154734;
+    left: 50%;
+    top: 48%;
+    transform: translateX(-50%);
+}
+
+/* Password Box */
+.signup-confirm-password-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 70%;
+    height: 8%;
+    background: #ffffff;
+    border: 1px solid #154734;
+    left: 50%;
+    top: 64%;
+    transform: translateX(-50%);
+}
+
+/* Username */
+.signup-username {
+    position: absolute;
+    left: 15%;
+    top: 27%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(0.9vw + 0.9vh);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #154734;
+}
+
+/* Password */
+.signup-password {
+    position: absolute;
+    left: 15%;
+    top: 44%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(0.9vw + 0.9vh);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #154734;
+}
+
+/* Password */
+.signup-confirm-password {
+    position: absolute;
+    left: 15%;
+    top: 60%;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(0.9vw + 0.9vh);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #154734;
+}
+
+/* Change background color when hovered over */
+.signup-login-box:hover {
+    background: #0d2b24;
+}
+
+/* Gold Box */
+.signup-gold-box {
+    box-sizing: border-box;
+    position: relative;
+    width: 100.2%;
+    height: 3%;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+    background: #bd8b13;
+}
+
+/* Poly Planner */
+.signup-poly-planner {
+    position: absolute;
+    left: 50%;
+    top: 16%;
+    transform: translate(-50%, -50%);
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(2.2vw + 2.2vh);
+    color: #154734;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* signup Box */
+.signup-login-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 70%;
+    height: 8%;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+    background: #154734;
+    border: 1px solid #154734;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex; /* Add flex display */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* signup */
+.signup-login {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(1.4vw + 1.4vh);
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+/* Error Message */
+.signup-error-message {
+    position: absolute;
+    top: 92%; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffc0cb; /* Light pink */
+    z-index: 90;
+    font-size: calc(0.6vw + 0.6vh);
+    width: 31%;
+    height: 4.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.signup-return-button {
+    width: 25%;
+    height: 4%;
+    left: 15%;
+    top: 73%;
+    position: absolute;
+    background-color: #bd8b13;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    font-size: calc(0.8vw + 0.8vh);
+    color: #fff;
+    font-family: "Josefin Sans";
+    border: none;
+}
+
+/* Change background color when hovered over */
+.signup-return-button:hover {
+    background: #282b0d;
+}
