@@ -3,6 +3,8 @@ For Cal Poly students who want to schedule their day/week, the PolyPlanner is a 
 
 Link to UI Prototype: https://www.figma.com/design/i3rZrmSaJXSQjuH0X7tnE2/calendar-1?node-id=0-1&t=nwZ6mxtg6tbKX0EP-1
 
+Deployed Website: https://green-sand-07ee7761e.5.azurestaticapps.net/
+
 Created by:
   klseverson
   madeline-park2
